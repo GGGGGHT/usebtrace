@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.ggggght'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.openjdk.btrace/btrace-boot
+    implementation 'org.openjdk.btrace:btrace-boot:2.1.0'
+}
+
+test {
+}
