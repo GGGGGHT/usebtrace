@@ -10,8 +10,10 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.btrace:btrace-boot:2.2.0'
+
     // https://mvnrepository.com/artifact/org.openjdk.btrace/btrace-boot
-    implementation 'org.openjdk.btrace:btrace-boot:2.1.0'
+//    implementation 'org.openjdk.btrace:btrace-boot:2.1.0'
 }
 
 test {
